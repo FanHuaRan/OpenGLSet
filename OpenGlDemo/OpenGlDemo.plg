@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OpenGlDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP13BA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/OpenGlDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programing\计算机图形学\OpenGlDemo\OpenGlDemoView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP13BA.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP13BB.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/OpenGlDemo.pdb" /debug /machine:I386 /out:"Debug/OpenGlDemo.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\OpenGlDemo.obj"
+".\Debug\OpenGlDemoDoc.obj"
+".\Debug\OpenGlDemoView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\OpenGlDemo.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP13BB.tmp"
+<h3>Output Window</h3>
+Compiling...
+OpenGlDemoView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+OpenGlDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
